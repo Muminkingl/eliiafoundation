@@ -36,8 +36,8 @@ function parseMarkdown(md: string): string {
     // Ordered list items
     .replace(/^\d+\. (.+)$/gm, '<li class="md-li-ordered">$1</li>')
     // Wrap consecutive <li> in <ul>/<ol>
-    .replace(/(<li class="md-li-bullet">.*?<\/li>(\n|$))+/gs, (match) => `<ul class="md-ul">${match}</ul>`)
-    .replace(/(<li class="md-li-ordered">.*?<\/li>(\n|$))+/gs, (match) => `<ol class="md-ol">${match}</ol>`)
+    .replace(/(<li class="md-li-bullet">[\s\S]*?<\/li>(\n|$))+/g, (match) => `<ul class="md-ul">${match}</ul>`)
+    .replace(/(<li class="md-li-ordered">[\s\S]*?<\/li>(\n|$))+/g, (match) => `<ol class="md-ol">${match}</ol>`)
     // Paragraphs: double newline → paragraph break
     .replace(/\n\n+/g, '\n\n')
     .split('\n\n')
