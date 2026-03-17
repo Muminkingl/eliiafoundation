@@ -4,7 +4,7 @@ const headerTranslations: Record<Lang, Record<string, string>> = {
   en: {
     // Top bar
     address: "40M St, Erbil, Iraq",
-    email: "info@elliafoundation.org",
+    email: "info@elia-foundation.org",
     phone: "07504477409",
     sponsorOrphan: "Sponsor an Orphan",
     organization: "Organization",
@@ -31,7 +31,7 @@ const headerTranslations: Record<Lang, Record<string, string>> = {
   ku: {
     // Top bar
     address: "شەقامی ٤٠م، هەولێر، عێراق",
-    email: "info@elliafoundation.org",
+    email: "info@elia-foundation.org",
     phone: "07504477409",
     sponsorOrphan: "کەفاڵەتی هەتیوێک",
     organization: "ڕێکخراو",
@@ -58,7 +58,7 @@ const headerTranslations: Record<Lang, Record<string, string>> = {
   ar: {
     // Top bar
     address: "شارع 40م، أربيل، العراق",
-    email: "info@elliafoundation.org",
+    email: "info@elia-foundation.org",
     phone: "07504477409",
     sponsorOrphan: "اكفل يتيماً",
     organization: "منظمة",

@@ -27,7 +27,7 @@ const footerTranslations: Record<Lang, Record<string, string>> = {
 
     // Contact
     address: "Erbil, Kurdistan Region, Iraq",
-    email: "info@elliafoundation.org",
+    email: "info@elia-foundation.org",
     phone: "07504477409",
 
     // Bottom
@@ -56,7 +56,7 @@ const footerTranslations: Record<Lang, Record<string, string>> = {
     prog4: "یارمەتی فریاگوزاری",
 
     address: "هەولێر، هەرێمی کوردستان، عێراق",
-    email: "info@elliafoundation.org",
+    email: "info@elia-foundation.org",
     phone: "07504477409",
 
     copyright: "دەزگای ئیلیای مرۆیی. هەموو مافەکان پارێزراون.",
@@ -84,7 +84,7 @@ const footerTranslations: Record<Lang, Record<string, string>> = {
     prog4: "الإغاثة الطارئة",
 
     address: "أربيل، إقليم كوردستان، العراق",
-    email: "info@elliafoundation.org",
+    email: "info@elia-foundation.org",
     phone: "07504477409",
 
     copyright: "مؤسسة إيليا. جميع الحقوق محفوظة.",
