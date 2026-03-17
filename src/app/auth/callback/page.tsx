@@ -10,7 +10,14 @@ export default function AuthCallback() {
   useEffect(() => {
     supabase.auth.onAuthStateChange((event, session) => {
       if (session) {
-        router.replace("/admin");
+        if (session.user.email === "eliiafoundation@gmail.com") {
+          router.replace("/admin");
+        } else {
+          // Sign out unauthorized user
+          supabase.auth.signOut().then(() => {
+            router.replace("/403");
+          });
+        }
       } else {
         router.replace("/login");
       }
