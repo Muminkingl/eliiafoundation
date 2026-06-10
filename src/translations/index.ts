@@ -8,6 +8,7 @@ import donationTranslations from "./donation";
 import footerTranslations from "./footer";
 import contactTranslations from "./contact";
 import newsTranslations from "./news";
+import teamTranslations from "./team";
 
 // Central translations registry — add new sections here
 const allTranslations: Record<string, Record<Lang, Record<string, string>>> = {
@@ -20,6 +21,7 @@ const allTranslations: Record<string, Record<Lang, Record<string, string>>> = {
   footer: footerTranslations,
   contact: contactTranslations,
   news: newsTranslations,
+  team: teamTranslations,
 };
 
 export default allTranslations;
