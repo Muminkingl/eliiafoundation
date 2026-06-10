@@ -2,7 +2,7 @@
 
 import React, { useEffect, useRef } from "react";
 import { motion, useScroll, useTransform, useSpring, useInView } from "framer-motion";
-import { HeartHandshake, Leaf, ArrowRight, Sparkles } from "lucide-react";
+import { HeartHandshake, Leaf, ArrowRight, Sparkles, Users } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
 
 
@@ -208,10 +208,10 @@ export default function Hero() {
             >
               {[
                 {
-                  icon: HeartHandshake,
+                  icon: Users,
                   title: t("hero", "sponsorshipTitle"),
                   desc: t("hero", "sponsorshipDesc"),
-                  accent: "from-amber-50 to-yellow-50",
+                  accent: "from-emerald-50 to-teal-50",
                 },
                 {
                   icon: Leaf,

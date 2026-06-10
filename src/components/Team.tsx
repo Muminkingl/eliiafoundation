@@ -19,7 +19,7 @@ export default function Team() {
       bio: t("team", "drAhmedBio"),
       image: "/ahmed.jpg",
       icon: Award,
-      email: "info@elia-foundation.org",
+      email: "ahmed@elia-foundation.org",
     },
     {
       name: t("team", "drHogrName"),
@@ -105,7 +105,7 @@ export default function Team() {
                     <img
                       src={member.image}
                       alt={member.name}
-                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                      className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
                     />
                     {/* Border accent */}
                     <div className="absolute inset-0 border-2 border-secondary/25 rounded-2xl pointer-events-none" />

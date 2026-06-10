@@ -54,7 +54,7 @@ export default function Testimonials() {
       quote: t("testimonials", "quote2"),
       author: t("testimonials", "author2"),
       role: t("testimonials", "role2"),
-      image: "/eliaf.jpg",
+      image: "/ahmed.jpg",
       initial: "F",
     },
     {
@@ -166,7 +166,7 @@ export default function Testimonials() {
                   animate={{ y: [0, i % 2 === 0 ? -10 : 10, 0] }}
                   transition={{ duration: 4 + i, repeat: Infinity, ease: "easeInOut" }}
                 >
-                  <img src={item.image} alt={item.author} className="w-full h-full object-cover" />
+                  <img src={item.image} alt={item.author} className="w-full h-full object-cover object-top" />
                 </motion.div>
               );
             })}
@@ -266,7 +266,7 @@ export default function Testimonials() {
                             className="w-14 h-14 rounded-full overflow-hidden"
                             style={{ border: "2px solid rgba(200,153,42,0.5)" }}
                           >
-                            <img src={current.image} alt={current.author} className="w-full h-full object-cover" />
+                            <img src={current.image} alt={current.author} className="w-full h-full object-cover object-top" />
                           </div>
                           {/* Online dot */}
                           <div
@@ -370,7 +370,7 @@ export default function Testimonials() {
                     transition: "all 0.3s ease",
                   }}
                 >
-                  <img src={item.image} alt={item.author} className="w-full h-full object-cover" />
+                  <img src={item.image} alt={item.author} className="w-full h-full object-cover object-top" />
                 </motion.button>
               ))}
               <span className={`text-xs font-bold ${isRTL ? "mr-1" : "ml-1"}`} style={{ color: "rgba(245,237,216,0.4)" }}>

@@ -1,25 +1,6 @@
-okay now in #gallery we need to add a loooooot of images ! okay !
-so in @public/images it has alot of catogarized images here is the list 
+okay perfect now in hero text for english use this instend 
+`It is a voluntary humanitarian organization established in 2015 and officially registered with the Directorate of NGOs in the Kurdistan Region of Iraq. The organization works to raise public awareness through volunteer initiatives in the fields of environmental protection, human rights, and community development. Its mission is to empower individuals, promote civic engagement, and contribute to building a more sustainable and inclusive society through voluntary action and community-based programs.`
 
-
-1-10 ; Journalist workshop
-
-  z1-z17  ; advanced  Computer Courses
-
- x1-x15  ; International Women’s Day
-
-c1-c15     ; international childerns day
-
- v1-v9  ; Dr. farouk rafeeq  seminary 
-    
-
-  b1-b10 ; the arab-kurd foundation
-
-  n1-n4  ;Lebonan Young Leaders and Management Skills Program
-
-  m1-m9; IREX - First Meeting
-
-  f1-f10; Voter Education and Election Awareness
-
-
-  i seletced the range for each catagory so since it is a lot it must have a VIEW ALL images so it must show caotgarized thats better do best ui style for that since its to much not ruin ui 
+and for arabic use this 
+`هي منظمة إنسانية تطوعية تأسست عام 2015 ومسجلة رسميًا لدى مديرية المنظمات غير الحكومية في إقليم كردستان العراق. تعمل المنظمة على رفع مستوى الوعي المجتمعي من خلال الأنشطة التطوعية في مجالات حماية البيئة وحقوق الإنسان والتنمية المجتمعية. وتسعى إلى تمكين الأفراد وتعزيز روح المشاركة المجتمعية والمواطنة الفاعلة، والإسهام في بناء مجتمع أكثر استدامة وشمولًا من خلال البرامج والمبادرات التطوعية الهادفة.`
+and keep urdish same its perfetc 

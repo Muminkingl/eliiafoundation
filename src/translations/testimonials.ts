@@ -12,12 +12,12 @@ const testimonialsTranslations: Record<Lang, Record<string, string>> = {
     // Testimonial 1
     quote1: "The poor are not only in Ramadan, but in all twelve months of the year. Don't forget them.",
     author1: "Dr. Hogr Ghareeb Khuthur",
-    role1: "President of the Organization",
+    role1: "Projects Director",
 
     // Testimonial 2
     quote2: "Every donation, no matter how small, plants a seed of hope in the hearts of those who need it most.",
-    author2: "Dr. Ahmed Sleman Muhammed",
-    role2: "Communications Manager",
+    author2: "Dr. Ahmed Sleman",
+    role2: "President of the Foundation",
 
     // Testimonial 3
     quote3: "We don't just build shelters; we rebuild lives, dignity, and futures across all our governorates.",
@@ -35,11 +35,11 @@ const testimonialsTranslations: Record<Lang, Record<string, string>> = {
 
     quote1: "هەژارەکان تەنها لە ڕەمەزاندا نین، بەڵکو لە هەر دوازدە مانگی ساڵدا هەن. لەبیریان مەکەن.",
     author1: "د. هۆگر غریب خذر",
-    role1: "سەرۆکی ڕێکخراوەکە",
+    role1: "بەڕێوبەری پرۆژەکان",
 
     quote2: "هەر بەخشینێک، هەرچەندە بچووک بێت، تۆوی هیوا دەچێنێت لە ناخی ئەوانەی پێویستییان پێیەتی.",
-    author2: "د. ئەحمەد سلێمان محەممەد",
-    role2: "بەڕێوەبەری پەیوەندییەکان",
+    author2: "د. ئەحمەد سلێمان ",
+    role2: "سەرۆکی دەزگا",
 
     quote3: "ئێمە تەنها پەناگا نابنین؛ بەڵکو ژیان، ئابوور و ئایندە دووبارەئاوا دەکەین لە هەموو پارێزگاکاندا.",
     author3: "ئەحمەد حەسەن",
@@ -56,11 +56,11 @@ const testimonialsTranslations: Record<Lang, Record<string, string>> = {
 
     quote1: "الفقراء ليسوا فقط في رمضان، بل في جميع أشهر السنة الاثني عشر. لا تنسوهم.",
     author1: "د. هوكر غريب خوسر",
-    role1: "رئيس المنظمة",
+    role1: "مدير المشاريع",
 
     quote2: "كل تبرع، مهما كان صغيراً، يزرع بذرة أمل في قلوب من هم في أمس الحاجة إليه.",
-    author2: "د. أحمد سليمان محمد",
-    role2: "مدير الاتصالات",
+    author2: "د. أحمد سليمان",
+    role2: "رئيس المؤسسة",
 
     quote3: "نحن لا نبني مجرد ملاجئ؛ بل نعيد بناء الحياة والكرامة والمستقبل عبر جميع محافظاتنا.",
     author3: "أحمد حسن",
