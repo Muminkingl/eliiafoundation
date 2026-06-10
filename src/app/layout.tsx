@@ -9,9 +9,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Ellia Foundation — Humanitarian Aid & Orphan Sponsorship",
+  title: "Ellia Foundation — Together In Service, Building Together",
   description:
-    "Ellia Foundation is a charitable humanitarian NGO dedicated to orphan sponsorship, education, healthcare, and community support across the Kurdistan Region of Iraq.",
+    "Ellia Foundation is a voluntary humanitarian organization established in 2015 and officially registered with the Directorate of NGOs in the Kurdistan Region of Iraq. The organization works to raise public awareness through volunteer initiatives in the fields of environmental protection, human rights, and community development.",
 };
 
 export default function RootLayout({
