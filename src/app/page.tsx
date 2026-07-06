@@ -6,10 +6,12 @@ import Team from "@/components/Team";
 import FAQ from "@/components/FAQ";
 import DonationMethods from "@/components/DonationMethods";
 import Footer from "@/components/Footer";
+import UnderConstruction from "@/components/UnderConstruction";
 
 export default function Home() {
   return (
     <>
+      <UnderConstruction />
       <Header />
       <Hero />
       <Testimonials />
@@ -21,4 +23,5 @@ export default function Home() {
     </>
   );
 }
+
 
