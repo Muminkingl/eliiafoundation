@@ -5,25 +5,25 @@ import { motion, useInView, AnimatePresence } from "framer-motion";
 import { ImageIcon, ZoomIn, X, ChevronLeft, ChevronRight, Grid } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
 
-// ─── Generate Image Datasets ──────────────────────────────────────────────
-const journalistImages = Array.from({ length: 10 }, (_, i) => ({
-  src: `/images/${i + 1}.jpg`,
+// ─── Generate Image Datasets (Only Including Existing Files) ────────────────
+const journalistImages = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((n) => ({
+  src: `/images/${n}.jpg`,
   category: "journalist",
 }));
-const computerImages = Array.from({ length: 17 }, (_, i) => ({
-  src: `/images/z${i + 1}.jpg`,
+const computerImages = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17].map((n) => ({
+  src: `/images/z${n}.jpg`,
   category: "computer",
 }));
 const womensDayImages = Array.from({ length: 15 }, (_, i) => ({
   src: `/images/x${i + 1}.jpg`,
   category: "womensDay",
 }));
-const childrensDayImages = Array.from({ length: 15 }, (_, i) => ({
-  src: `/images/c${i + 1}.jpg`,
+const childrensDayImages = [1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15].map((n) => ({
+  src: `/images/c${n}.jpg`,
   category: "childrensDay",
 }));
-const faroukImages = Array.from({ length: 9 }, (_, i) => ({
-  src: `/images/v${i + 1}.jpg`,
+const faroukImages = [2, 4, 6, 7, 8].map((n) => ({
+  src: `/images/v${n}.jpg`,
   category: "farouk",
 }));
 const arabKurdImages = Array.from({ length: 10 }, (_, i) => ({
@@ -38,8 +38,8 @@ const irexImages = Array.from({ length: 9 }, (_, i) => ({
   src: `/images/m${i + 1}.jpg`,
   category: "irex",
 }));
-const voterImages = Array.from({ length: 10 }, (_, i) => ({
-  src: `/images/f${i + 1}.jpg`,
+const voterImages = [2, 3, 5, 7].map((n) => ({
+  src: `/images/f${n}.jpg`,
   category: "voter",
 }));
 
